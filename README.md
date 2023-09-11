@@ -27,10 +27,29 @@
 #### インターネットからアクセスができないIPアドレス。VPCインスタンス間の通信で利用可能。
 
 ### EIP(Elastec IP)
-#### AWS で固定 IP アドレスを利用するためのサービス。
+#### AWSで固定IPアドレスを利用するためのサービス。
 
 ### AMI(Amazonマシンイメージ)
 #### EC2インスタンスの構成を取得し、テンプレートを作成するサービス。EC2インスタンスの全内容をバックアップすることができる。
 
 ### EBS(Elastic Block Store)
 #### ネットワークを介してEC2インスタンスにアタッチされるボリューム。
+
+### インスタンスストア	
+#### EC2インスタンスに直接アタッチされるボリューム。インスタンスを停止・終了すると内容が消える。
+
+### Amazon EFS
+#### AWSが提供するNFS(Network File System)を使用するファイルストレージ。EC2インスタンスのボリュームとして利用することが可能。
+
+### ロードバランサー
+#### ALB（Application Load Balancer）・NLB（Network Load Balancer）・Classic Load Balancer(旧来のロードバランサーでELBと呼ばれていました)の3種類をサポートする。
+
+### ALB(Application Load Balancer)
+#### アプリケーションへのトラフィックを複数のターゲットに分散するサービス。
+
+
+### AWS Lambda
+### AWSが提供するサーバーの起動や管理なしで、コード（Lambda 関数）を自動実行できるサービス。Node.js/Python/Java/Go/Ruby/.NET Coreといったプログラミング言語に対応している。
+
+### レイヤー(Lambda レイヤー)
+#### ライブラリを複数のLambda 関数で共有することが可能。
